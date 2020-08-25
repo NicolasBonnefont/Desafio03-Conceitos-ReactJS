@@ -16,8 +16,8 @@ function App() {
     
     const response = await api.post('repositories',{
       title: `Novo Projeto ${Date.now()}`,
-      url: "https://github.com/natan1506/desafio-1-go-stack/tree/master",
-      techs: "Node.JS,React",
+      url: "https://github.com/NicolasBonnefont/Desafio02-Conceitos-Nodejs",
+      techs: "Node.JS",
       likes: 0
     });
 
